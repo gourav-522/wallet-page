@@ -138,12 +138,16 @@ header {
     background: var(--fc-white);
     box-shadow: 0px 38px 85px -19px rgba(0, 0, 0, 0.1);
     padding: 39px;
-    margin-top: 190px;
+    margin-top: 129px;
 }
 
 .bottom-line-1 {
     height: 1px;
     background: var(--fc-gray);
+}
+
+.pt72 {
+    padding-top: 72px;
 }
 
 .curser-text {
@@ -161,6 +165,14 @@ header {
     font-size: var(--fs-lg);
     font-style: normal;
     font-weight: 600;
+    width: Hug (144px)px;
+        height: Hug (43px)px;
+        top: 394px;
+        left: 1438px;
+        padding: 8px 24px 8px 24px;
+        gap: 10px;
+       ;
+        opacity: 0px;
     line-height: normal;
     border: none;
     padding: 8px 24px;
@@ -179,9 +191,11 @@ header {
 
 .bottom-line {
     height: 1px;
-    opacity: 0.2;
+    opacity: 20%;
     background: var(--fc-gray);
+    border: 1px solid #000000
 }
+
 
 .card-text {
     color: var(--fc-grey);
