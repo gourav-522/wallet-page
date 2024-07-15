@@ -71,6 +71,14 @@
     justify-content: end;
 }
 
+.image-width {
+    transition: all .6s linear;
+}
+
+.image-width:hover {
+    transform: scale(1.09);
+}
+
 .nav-bg-shadow {
     background: var(--fc-white);
     box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
@@ -401,7 +409,7 @@ header {
     }
 
     .menulist {
-        width: 100%;
+        width: 30%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -435,6 +443,14 @@ header {
     .justify-content {
         justify-content: center;
     }
+
+    .pt72 {
+        padding-top: 10px;
+    }
+        .pt89 {
+            padding-top: 8px;
+       
+        }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -444,6 +460,10 @@ header {
 
     .image-width-1 {
         width: 30%;
+    }
+
+    .card-1 {
+        margin-top: 45px;
     }
 }
 
