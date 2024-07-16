@@ -297,7 +297,7 @@ header {
 }
 
 .bg-image {
-    background-image: url("/assets/images/bg-image.png");
+    background-image: url("/assets/images/png/bg-image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
@@ -447,10 +447,11 @@ header {
     .pt72 {
         padding-top: 10px;
     }
-        .pt89 {
-            padding-top: 8px;
-       
-        }
+
+    .pt89 {
+        padding-top: 8px;
+
+    }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
